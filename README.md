@@ -1,3 +1,9 @@
+#NOTE  
+Note this version has a modified version of osc2u that was designed by Chun Shen to work with iSS in iEBE (https://github.com/chunshen1987/iEBE/tree/stable/EBE-Node/osc2u). 
+It can be used by first sampling the freezeout surface using iS3D, and using the generated OSCAR file as the input_file for afterburner executable.
+
+   afterburner results/particle_list_osc_1.dat output_file 
+
 # urqmd-afterburner
 
 UrQMD, tailored for use a hadronic afterburner in hybrid hydro+cascade models.
