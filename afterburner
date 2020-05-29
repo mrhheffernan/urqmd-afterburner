@@ -25,7 +25,7 @@ tim 8000 8000
 cto 40 2
 
 # write to file 30, suppress all others
-f13
+#f13
 f14
 f15
 f16
@@ -39,4 +39,4 @@ xxx
 EOF
 
 # run UrQMD
-ftn09=urqmd.conf ftn10=urqmd_input.dat ftn30=$outputfile urqmd || exit 1
+ftn09=urqmd.conf ftn10=urqmd_input.dat ftn13=particle_list.dat ftn30=$outputfile urqmd || exit 1
